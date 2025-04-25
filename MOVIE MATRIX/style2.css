@@ -1,0 +1,744 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.contaier22 {
+    background-color: #000000;
+    height: 2000px;
+    width: 2000px;
+
+}
+
+.imgedit {
+    height: 100px;
+    border-radius: 20px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.top_container {
+    background-color: #321f1f;
+    border-radius: 20px;
+    margin: 10px;
+    width: 1550px;
+}
+
+.button_edit {
+    color: white;
+
+}
+
+.button1 {
+    height: 50px;
+    margin-top: 20px;
+    margin: 30px;
+}
+
+.vidoe_1 {
+    margin: 250px;
+    margin-left: 500px;
+}
+
+.textcenter11 {
+    text-align: center;
+    color: #ffffff;
+    margin-left: 500px;
+    border-radius: 20px;
+    font-size: 500px;
+    font-weight: bold;
+    background-color: #0a6d77;
+    width: 500px;
+}
+
+.bottomcontainer22 {
+    margin: 15px;
+}
+
+
+
+
+
+.bg-container {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 1200px;
+}
+
+.img_edit {
+    height: 200px;
+    margin-left: 50px;
+    margin-top: 0px;
+}
+
+.button_edit {
+    font-weight: bold;
+
+    border-radius: 5px;
+    width: 85px;
+    height: 40px;
+}
+
+.top_right {
+    margin: 25px;
+    margin-right: 100px;
+    margin-top: 70px;
+
+}
+
+.right_but {
+    margin-right: 10px;
+}
+
+.text_edit1 {
+    color: white;
+    text-align: center;
+    margin-top: 220px;
+    font-weight: bold;
+
+}
+
+.text_edit2 {
+    color: white;
+    text-align: center;
+    height: 100vh;
+    margin-bottom: 500px;
+    font-weight: bold;
+}
+
+.buttoncontainer {
+    text-align: center;
+    margin-right: 200px;
+}
+
+
+
+.buttonrealign {
+    text-align: center;
+}
+
+
+
+.container55 {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: white;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: black;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-us h2 {
+    color: #007bff;
+}
+
+.about-us ul {
+    list-style-type: square;
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.container66 {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #333;
+    color: yellow;
+    padding: 10px 0;
+    text-align: center;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: black;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.review-form,
+.reviews {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background: red;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+.star-rating {
+    display: flex;
+    direction: row-reverse;
+}
+
+.star-rating input {
+    display: none;
+}
+
+.star-rating label {
+    font-size: 30px;
+    color: #ccc;
+    cursor: pointer;
+}
+
+.star-rating input:checked~label {
+    color: #f7c04a;
+    /* Gold color for selected stars */
+}
+
+.star-rating label:hover,
+.star-rating label:hover~label {
+    color: #f7c04a;
+    /* Gold color on hover */
+}
+
+.review {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+}
+
+.review h3 {
+    margin: 0;
+}
+
+.review p {
+    margin: 5px 0;
+}
+
+.title {
+    color: white;
+}
+
+.end {
+    color: black;
+    font-weight: bold;
+}
+
+/* General Styles */
+.container77 {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2d2d2d;
+    color: white;
+    padding: 15px 20px;
+}
+
+.logo h1 {
+    font-size: 24px;
+    color: #ffcc00;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
+.user-profile img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.banner {
+    position: relative;
+    margin-top: 20px;
+
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+}
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+
+.banner-text h2 {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.banner-text p {
+    font-size: 24px;
+}
+
+.characters {
+    padding: 40px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.characters h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.character-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 30px;
+}
+
+.character-card {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.character-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.character-card h3 {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #333;
+}
+
+footer {
+    background-color: #2d2d2d;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.head {
+    color: lightpink;
+}
+
+.para {
+    color: #C0C0C0;
+}
+
+.color {
+    color: black;
+}
+
+
+
+.dam {
+    font-family: breif Times New Roman;
+}
+
+.wid {
+    width: 50px;
+    height: 300px;
+}
+
+.font {
+    font-family: Comic Sans MS;
+}
+
+/* General Styles */
+.container88 {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2d2d2d;
+    color: white;
+    padding: 15px 20px;
+}
+
+.logo h1 {
+    font-size: 24px;
+    color: #ffcc00;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
+.user-profile img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.banner {
+    position: relative;
+    margin-top: 20px;
+
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+}
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+
+.banner-text h2 {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.banner-text p {
+    font-size: 24px;
+}
+
+.characters {
+    padding: 40px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.characters h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.character-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 30px;
+}
+
+.character-card {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.character-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.character-card h3 {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #333;
+}
+
+footer {
+    background-color: #2d2d2d;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.head {
+    color: lightpink;
+}
+
+.para {
+    color: #C0C0C0;
+}
+
+.color {
+    color: black;
+}
+
+.containerbg {
+    background-color: #000000;
+}
+
+.dam {
+    font-family: breif Times New Roman;
+}
+
+.wid {
+    width: 50px;
+    height: 300px;
+}
+
+.font {
+    font-family: Comic Sans MS;
+}
+
+/* General Styles */
+.container99 {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2d2d2d;
+    color: white;
+    padding: 15px 20px;
+}
+
+.logo h1 {
+    font-size: 24px;
+    color: #ffcc00;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
+.user-profile img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.banner {
+    position: relative;
+    margin-top: 20px;
+
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+}
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+
+.banner-text h2 {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.banner-text p {
+    font-size: 24px;
+}
+
+.characters {
+    padding: 40px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.characters h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.character-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 30px;
+}
+
+.character-card {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.character-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.character-card h3 {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #333;
+}
+
+footer {
+    background-color: #2d2d2d;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.head {
+    color: lightpink;
+}
+
+.para {
+    color: #C0C0C0;
+}
+
+.color {
+    color: black;
+}
+
+
+
+.dam {
+    font-family: breif Times New Roman;
+}
+
+.wid {
+    width: 50px;
+    height: 300px;
+}
+
+.font {
+    font-family: Comic Sans MS;
+}
+
+.button_container1 {
+    text-align: center;
+    margin: 23px;
+}
+
+.title1{
+    font-weight: bold;
+    font-family: "roboto";
+}
+
+.imgaboutus1{
+    height: 20px;
+}
+
+.container_aboutus{
+    background-color: black;
+}
+
+.titleaboutus{
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    font-family: roboto;
+}
+
+.imagecardmain{
+    height: 100%;
+}

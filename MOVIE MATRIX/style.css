@@ -1,0 +1,306 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+video{
+    height: 100vh;
+    object-fit: cover;
+}
+
+.container_mainpage_1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.button_signin_1{
+    height: 5vh;
+    margin: 58px;
+    width: 12vw;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    border-width: 0px;
+    font-family: "Poppins";
+    font-weight: bold;
+    
+}
+
+.button_signin_2{
+    height: 5vh;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    border-width: 0px;
+    font-family: "Poppins";
+    font-weight: bold;
+}
+
+.buttoncontainersignin{
+    margin: 5px;
+}
+
+.button_goback_3{
+    height: 5vh;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    border-width: 0px;
+    font-family: "Poppins";
+    font-weight: bold;
+}
+
+.buttoncontainergoback{
+    margin: 5px;
+    text-align: right;
+}
+
+
+.button_signin_1:hover{
+    background-color: white;
+    color: red;
+}
+
+.button_signin_2:hover{
+    background-color: white;
+    color: red;
+}
+
+.button_goback_3:hover{
+    background-color: white;
+    color: red;
+}
+
+
+.img_edit1{
+    height: 25vh;
+    margin-top: -15px;
+    
+}
+
+.container_text_mainpage{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:white;
+}
+.button_simm_1{
+    background-color: transparent;
+    color: white;
+    height: 5vh;
+    width: 240px;
+    border-radius: 20px;
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+    text-decoration: none;
+    font-family: "Roboto";
+
+    
+}
+.button_simm_1:hover{
+    background-image: linear-gradient(to left,white,black);
+    font-family: "Roboto";
+    font-weight: bold;
+}
+
+.video_background_1{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.moviematrix_page1{
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 100vh;
+}
+
+.movietext{
+    color: red;
+}
+
+.heading_lp_main{
+    color: white;
+    text-decoration: none;
+    font-family: "Roboto";
+    font-weight: bold;
+}
+
+.signinpagemaincontainer{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.containersignincontent{
+    background-color: rgba(0,0,0,0.3);
+    width: 35vw;
+    padding: 20px;
+    box-shadow: rgba(0,0,0,0.3);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+}
+.containersignincontent2{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.namesingintext{
+    color: white;
+    font-family: "Roboto";
+    font-weight: BOLD;
+}
+
+.nameformmain{
+    background-color: black;
+    height: 5vh;
+    width: 48vw;
+    color: white;
+    font-size: 25px;
+    border-radius: 12px;
+}
+
+.signinnamecontainer{
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.signinemailcontainer{
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+#hideButton:checked + .btn {
+    display: none;
+}
+
+.video_background_2{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.backgroundmoviematrixhomepage{
+    background-image: url("https://res.cloudinary.com/ddajnqkjo/image/upload/v1745401563/blackbackground2_qryaeu.jpg");
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.6); 
+    background-blend-mode: overlay; 
+;
+}
+
+
+
+.logomoviematrix2{
+    height: 20vh;
+}
+
+.navbartextmainpage1{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-family: roboto;
+}
+
+.navbartextmainpage1:hover{
+    font-weight: bold;
+}
+
+.topnavbarmainpage{
+
+    left: 0px;
+    right: 0px;
+    background-color: #2b2a2a;
+    opacity: 0.8;
+    border-bottom: solid;;
+    border-color: gray;
+    margin: 0px;
+}
+
+.nameformmain{
+    width: 30vw;
+}
+
+.imgposter1{
+    height: 60vh;
+    margin-right: 10vw;
+}
+
+.moviematrixtitlehomepage{
+    color: #86909D;
+    font-family: "ROBOTO";
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.moviematrixparagraphhomepage{
+    color: white;
+    font-family: "ROBOTO";
+    font-size: 20px;
+}
+
+.topcontainerhomepage3{
+    margin: 10vh;
+}
+
+.card-img{
+    width: 5vw;
+}
+
+.card {
+    width: 30vw;
+    margin: 10vw;
+}
+
+.moviedifferentlanguage{
+    display: flex;
+}
+
+.card1{
+    transition: transform 0.3s ease-in-out;
+}
+.card1:hover{
+    transform: scale(1.1);
+}
+
+.card2{
+    transition: transform 0.3s ease-in-out;
+}
+.card2:hover{
+    transform: scale(1.1);
+}
+
+.card3{
+    transition: transform 0.3s ease-in-out;
+}
+.card3:hover{
+    transform: scale(1.1);
+}
+
+.card4{
+    transition: transform 0.3s ease-in-out;
+}
+.card4:hover{
+    transform: scale(1.1);
+}
+
+.buttoncontainermainhomepage{
+    display: flex;
+    justify-content: center;
+
+    padding: 20px;
+}
+
+.cardimagemain{
+    height: 100%;
+}
